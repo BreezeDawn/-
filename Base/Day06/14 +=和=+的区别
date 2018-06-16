@@ -1,0 +1,10 @@
+def func1(tmp):
+    print('func1-1-tmp=', tmp)
+    # tmp += tmp  # += 会把数据添加到原列表的后面
+    tmp = tmp + tmp  # =+ 会生成一个新的列表
+    print('func1-2-tmp=', tmp)
+
+
+ls = [11,22]
+func1(ls)
+print('函数之后:ls=', ls)
