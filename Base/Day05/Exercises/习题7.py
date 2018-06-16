@@ -3,10 +3,10 @@
 #     * 函数需要有返回值
 
 
-# year = int(input('请输入年份：'))
-# def judge(a):
-#     if a % 4 == 0:
-#         return '闰年'
-#     else:
-#         return '平年'
-# print(judge(year))
+year = int(input('请输入年份：'))
+def judge(a):
+    if a % 4 == 0:
+        return '闰年'
+    else:
+        return '平年'
+print(judge(year))
