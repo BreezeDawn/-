@@ -2,7 +2,8 @@
 # *一个函数负责添加名片
 # *一个函数负责打印功能
 # *一个函数负责清空功能
-#
+
+
 def add(user_list):
     while True:
         name = input("请输入姓名:")
